@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,height=device-height " />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+  <h1 class="text-center bg-primary">Password Generator</h1>
+  <div class="col-md-6 offset-md-3 col-sm-12 containAll">
+    <label for="name">Length</label>
+    <input type="number" class="form-control" id="length" placeholder="Enter between 6-20" />
+    <label for="password">Generated Password</label>
+    <input type="text" class="form-control" id="password" placeholder="Message" readonly />
+    <button id="sendButton" class="btn btn-primary form-control">
+      Generate
+    </button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
